@@ -9,6 +9,10 @@ jQuery(document).ready(function($) {
         fadeEffect: {
             crossFade: false
         },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
     });
 
     $('.tabs').tabs({

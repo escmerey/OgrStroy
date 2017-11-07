@@ -1864,6 +1864,8 @@ a.btn {
         width: calc(33.33% - 30px);
         margin: 0 0 30px 30px;
         padding-bottom: 25px;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         background-color: #ffffff;
         @media screen and (max-width: 720px) {
@@ -1872,7 +1874,7 @@ a.btn {
         }
         .btn {
             max-width: 200px;
-            margin: 15px auto 0;
+            margin: auto auto 0;
             @media screen and (max-width: 720px) {
                 max-width: 120px;
                 height: 40px;
@@ -1889,7 +1891,7 @@ a.btn {
     }
     &__text {
         box-sizing: border-box;
-        margin-top: 18px;
+        margin: 18px 0 20px;
         padding: 0 35px;
         font-size: 18px;
         font-weight: 600;
@@ -2434,12 +2436,6 @@ a.btn {
             @media screen and (max-width: 720px) {
                 flex-direction: column-reverse;
             }
-            .about__left {
-                width: 68%;
-                @media screen and (max-width: 720px) {
-                    width: 100%;
-                }
-            }
             .about__right {
                 width: 32%;
                 @media screen and (max-width: 720px) {
@@ -2450,18 +2446,18 @@ a.btn {
     }
     &__left {
         box-sizing: border-box;
-        width: 60.46%;
+        flex-grow: 1;
         padding: 60px 45px;
         background-color: #ffffff;
         @media screen and (max-width: 998px) {
             padding: 30px 15px;
         }
         @media screen and (max-width: 720px) {
-            width: 100%;
             padding: 20px 10px;
         }
     }
     &__right {
+        flex-shrink: 0;
         width: 39.54%;
         background-position: center center;
         background-size: cover;
