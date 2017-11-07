@@ -31,6 +31,7 @@ jQuery(document).ready(function($) {
         download: false,
         share: false,
         thumbnail: false,
+        selector: '.light-gallery__item'
     });
 
     var reviewsSwiper = new Swiper('.reviews__slider', {
