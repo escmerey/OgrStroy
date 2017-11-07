@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="keywords" content="document" />
+        <meta name="description" content="document" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href='images/Favicon_144x144.png'>
+        <link rel="apple-touch-icon" href='images/apple-touch-icon-57x57.png'>
+        <link rel="apple-touch-icon" sizes="72x72" href='images/apple-touch-icon-72x72.png'>
+        <link rel="apple-touch-icon" sizes="114x114" href='images/apple-touch-icon-114x114.png'>
+        <!-- Document stylesheet files -->
+        <link rel="stylesheet" href="vendor/swiper-slider/css/swiper.min.css"/>
+        <link rel="stylesheet" href="vendor/nice-select/nice-select.css"/>
+        <link rel="stylesheet" href="vendor/perfect-scrollbar/css/main.css"/>
+        <link rel="stylesheet" href="vendor/lightgallery/css/lightgallery.min.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <!-- Plugins -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="vendor/jquery-ui.min.js"></script>
+        <script src="vendor/jquery.maskedinput.min.js"></script>
+        <script src="vendor/jquery.validate.js"></script>
+        <script src="vendor/swiper-slider/js/swiper.min.js"></script>
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+        <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/validate.page.js"></script>
+        <script src="js/popup.js"></script>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD5oswumLUaPeyYKa0zpFR7gNsobVkS7eI"></script>
+        <!-- Functionaly scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="b_center">
+                    <a href="/" class="header__logo"><img src="images/head-logo.png" alt=""></a>
+                    <div class="header__info">
+                        <div>
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div>
+                            <i><img src="images/ico/clock.svg" alt=""></i>
+                            <span>График работы: с 9.00 до 20.00, Пн-Вс</span>
+                        </div>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+74951252887" class="link"><span>+7(495) 125-28-87</span></a>
+                    </div>
+                    <a href="#" class="btn btn--empty callPopup" data-popupBlock="callback">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="b_center">
+                    <div class="header__overlay"></div>
+                    <div class="header__toggle toggle_burger"><span></span></div>
+                    <nav class="header__menu">
+                        <div class="header__menu__link">
+                            <a href="#"><span>Продукция и изделия</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Услуги</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li>
+                                    <a href="#">Облицовка</a>
+                                    <div class="header__menu__arr"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Облицовка лестниц</a>
+                                            <div class="header__menu__arr"></div>
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Облицовка стен</a></li>
+                                        <li><a href="#">Облицовка фасадов</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Укладка брусчатки</a>
+                                </li>
+                                <li>
+                                    <a href="#">Монтаж камня</a>
+                                </li>
+                                <li>
+                                    <a href="#">Замеры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Индивидуальный дизайн</a>
+                                </li>
+                                <li>
+                                    <a href="#">Продажа блоков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Термообработка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Литье из бронзы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Резьба по камню</a>
+                                </li>
+                                <li>
+                                    <a href="#">Колонны из камня</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Каталог камня</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li><a href="#">Гранит</a></li>
+                                <li><a href="#">Мрамор</a></li>
+                                <li><a href="#">Оникс</a></li>
+                                <li><a href="#">Траветрин</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Наши работы</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>О компании</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Новости</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Блог</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Контакты</span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                    <h2 class="caption__title">Каталог камня</h2>
+                </div>
+                <div class="dblcol">
+                    <aside class="aside">
+                        <div class="aside__box">
+                            <h4 class="aside__title">Текстура</h4>
+                            <ul>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1" checked>
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Гранитный узор</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Крупная текстура</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Мелкая текстура</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Марморный узор</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Объёмный узор</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="aside__box">
+                            <h4 class="aside__title">Цвет</h4>
+                            <ul>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2" checked>
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Чёрный</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Коричневый</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Серый</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Синий</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Жёлтый</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Красный</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Белый</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Бежевый</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-2">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Мультиколор</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <div class="rightcont">
+                        <div class="filter">
+                            <a href="#" class="filter__item active">Гранит</a>
+                            <a href="#" class="filter__item">Мрамор</a>
+                            <a href="#" class="filter__item">Оникс</a>
+                            <a href="#" class="filter__item">Травертин</a>
+                            <a href="#" class="filter__item">Показать всё</a>
+                        </div>
+                        
+                        <section class="goods">
+                            <div class="goods__items">
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-3.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-3.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                                <div class="goods__item">
+                                    <div class="goods__image" style="background-image: url('images/catalog-img-3.jpg');"></div>
+                                    <p class="goods__text">Aleutian White AW130</p>
+                                    <a href="#" class="btn">смотреть</a>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <div class="paginator">
+                            <a href="#" class="paginator__item">01</a>
+                            <a href="#" class="paginator__item active">02</a>
+                            <a href="#" class="paginator__item">03</a>
+                            <a href="#" class="paginator__item">04</a>
+                            <span>...</span>
+                            <a href="#" class="paginator__item">43</a>
+                            <div class="paginator__btn swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                            <div class="paginator__btn swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="saleblock">
+            <div class="saleblock__left">
+                <div class="w50_center w50_center--left">
+                    <h2 class="saleblock__title">Закажите столешницу сейчас, и получите <b>скидку 10%</b></h2>
+                    <p class="saleblock__text">Укажите Ваш номер телефона и мы Вам перезвонимАкция действует до 30.10.2017</p>
+                    <form action="#" class="saleblock__form form valid_form">
+                        <div class="form__input">
+                            <input type="tel" placeholder="Укажите номер" name="Телефон_пользователя">
+                        </div>
+                        <button class="btn" type="submit">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+            <div class="saleblock__right" style="background-image: url('images/saleblock-right-bg.jpg');"></div>
+        </section>
+
+        <section class="examples">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">Примеры наших работ</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="arr_link">
+                            <a href="#" class="link">
+                                <span>все работы</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="examples__wrap tabs">
+                    <div class="v_menu_toggle">Продукция<span class="v_menu_toggle__arr"></span></div>
+                    <ul class="examples__left v_menu">
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-1"><span>Столешницы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-2"><span>Разделочные доски</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-3"><span>Подоконники</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-4"><span>Ступени</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-5"><span>Лестницы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-6"><span>Барные стойки</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-7"><span>Столы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-8"><span>Камины</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-9"><span>Барельефы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-10"><span>Памятники</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-11"><span>Скульптуры</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-12"><span>Изделия из бронзы</span></a>
+                        </li>
+                    </ul>
+                    <div class="examples__gallery light-gallery" id="examples-tab-1">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-2">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-3">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-4">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-5">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-6">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-7">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-8">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-9">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-10">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-11">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-12">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">отзывы</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                    </div>
+                </div>
+                <div class="reviews__wrapper">
+                    <div class="reviews__slider catalog__items swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">старостин давид</h3>
+                                    <p class="catalog__text">Спасибо, что пришли на помощь в трудную минуту… Что сами доставили памятник на кладбище… Теперь наш дедушка покоится с миром… Храни вас Господь… Что сами доставили памятник на кладбище. Теперь наш дедушка...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">желнин игорь</h3>
+                                    <p class="catalog__text">Долго пытались с женой объяснить работникам, какой фонтан мы хотим. Всё равно до конца разъяснить не удалось, но в результате вышло даже лучше, чем мы представляли. Наверное, так бывает, когда за дело...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">старостин давид</h3>
+                                    <p class="catalog__text">Спасибо, что пришли на помощь в трудную минуту… Что сами доставили памятник на кладбище… Теперь наш дедушка покоится с миром… Храни вас Господь… Что сами доставили памятник на кладбище. Теперь наш дедушка...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">желнин игорь</h3>
+                                    <p class="catalog__text">Долго пытались с женой объяснить работникам, какой фонтан мы хотим. Всё равно до конца разъяснить не удалось, но в результате вышло даже лучше, чем мы представляли. Наверное, так бывает, когда за дело...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="b_center">
+                    <div class="footer__info">
+                        <div class="footer__logo">
+                            <a href=""><img src="images/head-logo.png" alt=""></a>
+                        </div>
+                        <a href="tel:+74951252887" class="footer__item footer__item--big">
+                            <i><img src="images/ico/phone.svg" alt=""></i>
+                            <span>+7(495) 125-28-87</span>
+                        </a>
+                        <div class="footer__item">
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div class="footer__item">
+                            <i><img src="images/ico/envelope.svg" alt=""></i>
+                            <span>Почтовый индекс: 125368</span>
+                        </div>
+                        <a href="mailto:info@ogranstroy.ru" class="footer__item">
+                            <i><img src="images/ico/world.svg" alt=""></i>
+                            <span>info@ogranstroy.ru</span>
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <div>
+                            <a href="#" class="link"><span>Услуги</span></a>
+                            <a href="#" class="link"><span>Каталог камня</span></a>
+                            <a href="#" class="link"><span>Наши работы</span></a>
+                            <a href="#" class="link"><span>О компании</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Новости</span></a>
+                            <a href="#" class="link"><span>Блог</span></a>
+                            <a href="#" class="link"><span>Контакты</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столешницы</span></a>
+                            <a href="#" class="link"><span>Разделочные доски</span></a>
+                            <a href="#" class="link"><span>Подоконники</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Ступени</span></a>
+                            <a href="#" class="link"><span>Лестницы</span></a>
+                            <a href="#" class="link"><span>Барные стойки</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столы</span></a>
+                            <a href="#" class="link"><span>Камины</span></a>
+                            <a href="#" class="link"><span>Барельефы</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Памятники</span></a>
+                            <a href="#" class="link"><span>Скульптуры</span></a>
+                            <a href="#" class="link"><span>Изделия из бронзы </span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="b_center">
+                    <span>© 2008-2016 ООО «ОгранСтрой»</span>
+                    <div>Разработка и продвижение - <a href="#" target="_blank" class="link"><span>Markello</span></a></div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="_trg.js"></script>
+    </body>
+
+</html>

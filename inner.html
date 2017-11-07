@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="keywords" content="document" />
+        <meta name="description" content="document" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href='images/Favicon_144x144.png'>
+        <link rel="apple-touch-icon" href='images/apple-touch-icon-57x57.png'>
+        <link rel="apple-touch-icon" sizes="72x72" href='images/apple-touch-icon-72x72.png'>
+        <link rel="apple-touch-icon" sizes="114x114" href='images/apple-touch-icon-114x114.png'>
+        <!-- Document stylesheet files -->
+        <link rel="stylesheet" href="vendor/swiper-slider/css/swiper.min.css"/>
+        <link rel="stylesheet" href="vendor/nice-select/nice-select.css"/>
+        <link rel="stylesheet" href="vendor/perfect-scrollbar/css/main.css"/>
+        <link rel="stylesheet" href="vendor/lightgallery/css/lightgallery.min.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <!-- Plugins -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="vendor/jquery-ui.min.js"></script>
+        <script src="vendor/jquery.maskedinput.min.js"></script>
+        <script src="vendor/jquery.validate.js"></script>
+        <script src="vendor/swiper-slider/js/swiper.min.js"></script>
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+        <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/validate.page.js"></script>
+        <script src="js/popup.js"></script>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD5oswumLUaPeyYKa0zpFR7gNsobVkS7eI"></script>
+        <!-- Functionaly scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="b_center">
+                    <a href="/" class="header__logo"><img src="images/head-logo.png" alt=""></a>
+                    <div class="header__info">
+                        <div>
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div>
+                            <i><img src="images/ico/clock.svg" alt=""></i>
+                            <span>График работы: с 9.00 до 20.00, Пн-Вс</span>
+                        </div>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+74951252887" class="link"><span>+7(495) 125-28-87</span></a>
+                    </div>
+                    <a href="#" class="btn btn--empty callPopup" data-popupBlock="callback">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="b_center">
+                    <div class="header__overlay"></div>
+                    <div class="header__toggle toggle_burger"><span></span></div>
+                    <nav class="header__menu">
+                        <div class="header__menu__link">
+                            <a href="#"><span>Продукция и изделия</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Услуги</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li>
+                                    <a href="#">Облицовка</a>
+                                    <div class="header__menu__arr"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Облицовка лестниц</a>
+                                            <div class="header__menu__arr"></div>
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Облицовка стен</a></li>
+                                        <li><a href="#">Облицовка фасадов</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Укладка брусчатки</a>
+                                </li>
+                                <li>
+                                    <a href="#">Монтаж камня</a>
+                                </li>
+                                <li>
+                                    <a href="#">Замеры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Индивидуальный дизайн</a>
+                                </li>
+                                <li>
+                                    <a href="#">Продажа блоков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Термообработка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Литье из бронзы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Резьба по камню</a>
+                                </li>
+                                <li>
+                                    <a href="#">Колонны из камня</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Каталог камня</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li><a href="#">Гранит</a></li>
+                                <li><a href="#">Мрамор</a></li>
+                                <li><a href="#">Оникс</a></li>
+                                <li><a href="#">Траветрин</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Наши работы</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>О компании</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Новости</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Блог</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Контакты</span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <ul class="breadcrumbs b_center">
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
+                <a href="#">Новости</a>
+            </li>
+            <li>
+                <span>Облицовка мроморной лестницы</span>
+            </li>
+        </ul>
+
+        <section class="inner b_center">
+            <div class="inner__image" style="background-image: url(images/inner-img.jpg)"></div>
+            <div class="inner__content g_format">
+                <h1 class="inner__title">Aleutian White AW130</h1>
+                <p>Компания «ОгранСтрой» изготавливает изделия из кварцевого агломерата Radianz</p>
+                <ul>
+                    <li>изготовление кухонных столешниц из агломерата Samsung Radianz разных цветов и конфигураций</li>
+                    <li>изготовление столешниц в ванную комнату из агломерата</li>
+                    <li>изготовление барных стоек и столов из агломерата для дома, в рестораны и кафе</li>
+                    <li>изготовление подоконников из агломерата любых размеров и форм</li>
+                    <li>изготовление ступеней для лестниц из агломерата разных форм.</li>
+                </ul>
+                <p>По желанию клиентов, фирма осуществляет авторский надзор и строительство. Камень - прекрасный , естественный и долговечный материал. Не зря на протяжении тысячелетий человечество именно в камне воплощало свои самые ценные мысли и идеи.<br/> ООО " ОгранСтрой" более десяти лет успешно работает на рынке строительно-отделочных работ. Фирма включает в себя несколько самостоятельных специализированных производств. </p>
+                <p>По желанию клиентов, фирма осуществляет авторский надзор и строительство. Камень - прекрасный , естественный и долговечный материал. Не зря на протяжении тысячелетий человечество именно в камне воплощало свои самые ценные мысли и идеи.</p>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="b_center">
+                <div class="advantages__items">
+                    <div class="advantages__item">
+                        <h3>Бесплатно</h3>
+                        <img src="images/ico/advantage-ico-1.png" alt="">
+                        <p>доставим Ваш заказ по Москве</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Гарантируем</h3>
+                        <img src="images/ico/advantage-ico-2.png" alt="">
+                        <p>скидку каждому заказчику</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Бесплатно</h3>
+                        <img src="images/ico/advantage-ico-3.png" alt="">
+                        <p>отправим к вам замерщика</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Гарантируем</h3>
+                        <img src="images/ico/advantage-ico-4.png" alt="">
+                        <p>лучшие цены по Москве и области</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saleblock">
+            <div class="saleblock__left">
+                <div class="w50_center w50_center--left">
+                    <h2 class="saleblock__title">Закажите изделие из  Aleutian White AW130 прямо сейчас, и получите <b>скидку 10%</b></h2>
+                    <form action="#" class="saleblock__form form valid_form">
+                        <div class="form__input">
+                            <input type="tel" placeholder="Укажите номер" name="Телефон_пользователя">
+                        </div>
+                        <button class="btn" type="submit">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+            <div class="saleblock__right" style="background-image: url('images/saleblock-right-bg.jpg');"></div>
+        </section>
+
+        <section class="examples">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">Похожие на Aleutian White AW130</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                    </div>
+                </div>
+                <div class="examples__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-3.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-3.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-1.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/catalog-img-2.jpg');"></div>
+                            <p class="goods__text">Aleutian White AW130</p>
+                            <a href="#" class="btn">смотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">Примеры наших работ</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="arr_link">
+                            <a href="#" class="link">
+                                <span>все работы</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="examples__wrap tabs">
+                    <div class="v_menu_toggle">Продукция<span class="v_menu_toggle__arr"></span></div>
+                    <ul class="examples__left v_menu">
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-1"><span>Столешницы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-2"><span>Разделочные доски</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-3"><span>Подоконники</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-4"><span>Ступени</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-5"><span>Лестницы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-6"><span>Барные стойки</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-7"><span>Столы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-8"><span>Камины</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-9"><span>Барельефы</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-10"><span>Памятники</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-11"><span>Скульптуры</span></a>
+                        </li>
+                        <li class="v_menu__item">
+                            <a href="#examples-tab-12"><span>Изделия из бронзы</span></a>
+                        </li>
+                    </ul>
+                    <div class="examples__gallery light-gallery" id="examples-tab-1">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-2">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-3">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-4">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-5">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-6">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-7">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-8">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-9">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-10">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-11">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                    <div class="examples__gallery light-gallery" id="examples-tab-12">
+                        <a href="images/gallery-img-1.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-1.jpg');"></a>
+                        <a href="images/gallery-img-2.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-2.jpg');"></a>
+                        <a href="images/gallery-img-3.jpg" class="examples__item light-gallery__item" style="background-image: url('images/gallery-img-3.jpg');"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="b_center">
+                    <div class="footer__info">
+                        <div class="footer__logo">
+                            <a href=""><img src="images/head-logo.png" alt=""></a>
+                        </div>
+                        <a href="tel:+74951252887" class="footer__item footer__item--big">
+                            <i><img src="images/ico/phone.svg" alt=""></i>
+                            <span>+7(495) 125-28-87</span>
+                        </a>
+                        <div class="footer__item">
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div class="footer__item">
+                            <i><img src="images/ico/envelope.svg" alt=""></i>
+                            <span>Почтовый индекс: 125368</span>
+                        </div>
+                        <a href="mailto:info@ogranstroy.ru" class="footer__item">
+                            <i><img src="images/ico/world.svg" alt=""></i>
+                            <span>info@ogranstroy.ru</span>
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <div>
+                            <a href="#" class="link"><span>Услуги</span></a>
+                            <a href="#" class="link"><span>Каталог камня</span></a>
+                            <a href="#" class="link"><span>Наши работы</span></a>
+                            <a href="#" class="link"><span>О компании</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Новости</span></a>
+                            <a href="#" class="link"><span>Блог</span></a>
+                            <a href="#" class="link"><span>Контакты</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столешницы</span></a>
+                            <a href="#" class="link"><span>Разделочные доски</span></a>
+                            <a href="#" class="link"><span>Подоконники</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Ступени</span></a>
+                            <a href="#" class="link"><span>Лестницы</span></a>
+                            <a href="#" class="link"><span>Барные стойки</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столы</span></a>
+                            <a href="#" class="link"><span>Камины</span></a>
+                            <a href="#" class="link"><span>Барельефы</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Памятники</span></a>
+                            <a href="#" class="link"><span>Скульптуры</span></a>
+                            <a href="#" class="link"><span>Изделия из бронзы </span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="b_center">
+                    <span>© 2008-2016 ООО «ОгранСтрой»</span>
+                    <div>Разработка и продвижение - <a href="#" target="_blank" class="link"><span>Markello</span></a></div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="_trg.js"></script>
+    </body>
+
+</html>

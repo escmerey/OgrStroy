@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="keywords" content="document" />
+        <meta name="description" content="document" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href='images/Favicon_144x144.png'>
+        <link rel="apple-touch-icon" href='images/apple-touch-icon-57x57.png'>
+        <link rel="apple-touch-icon" sizes="72x72" href='images/apple-touch-icon-72x72.png'>
+        <link rel="apple-touch-icon" sizes="114x114" href='images/apple-touch-icon-114x114.png'>
+        <!-- Document stylesheet files -->
+        <link rel="stylesheet" href="vendor/swiper-slider/css/swiper.min.css"/>
+        <link rel="stylesheet" href="vendor/nice-select/nice-select.css"/>
+        <link rel="stylesheet" href="vendor/perfect-scrollbar/css/main.css"/>
+        <link rel="stylesheet" href="vendor/lightgallery/css/lightgallery.min.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <!-- Plugins -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="vendor/jquery-ui.min.js"></script>
+        <script src="vendor/jquery.maskedinput.min.js"></script>
+        <script src="vendor/jquery.validate.js"></script>
+        <script src="vendor/swiper-slider/js/swiper.min.js"></script>
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+        <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/validate.page.js"></script>
+        <script src="js/popup.js"></script>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD5oswumLUaPeyYKa0zpFR7gNsobVkS7eI"></script>
+        <!-- Functionaly scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="b_center">
+                    <a href="/" class="header__logo"><img src="images/head-logo.png" alt=""></a>
+                    <div class="header__info">
+                        <div>
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div>
+                            <i><img src="images/ico/clock.svg" alt=""></i>
+                            <span>График работы: с 9.00 до 20.00, Пн-Вс</span>
+                        </div>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+74951252887" class="link"><span>+7(495) 125-28-87</span></a>
+                    </div>
+                    <a href="#" class="btn btn--empty callPopup" data-popupBlock="callback">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="b_center">
+                    <div class="header__overlay"></div>
+                    <div class="header__toggle toggle_burger"><span></span></div>
+                    <nav class="header__menu">
+                        <div class="header__menu__link">
+                            <a href="#"><span>Продукция и изделия</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Услуги</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li>
+                                    <a href="#">Облицовка</a>
+                                    <div class="header__menu__arr"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Облицовка лестниц</a>
+                                            <div class="header__menu__arr"></div>
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Облицовка стен</a></li>
+                                        <li><a href="#">Облицовка фасадов</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Укладка брусчатки</a>
+                                </li>
+                                <li>
+                                    <a href="#">Монтаж камня</a>
+                                </li>
+                                <li>
+                                    <a href="#">Замеры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Индивидуальный дизайн</a>
+                                </li>
+                                <li>
+                                    <a href="#">Продажа блоков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Термообработка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Литье из бронзы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Резьба по камню</a>
+                                </li>
+                                <li>
+                                    <a href="#">Колонны из камня</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Каталог камня</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li><a href="#">Гранит</a></li>
+                                <li><a href="#">Мрамор</a></li>
+                                <li><a href="#">Оникс</a></li>
+                                <li><a href="#">Траветрин</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Наши работы</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>О компании</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Новости</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Блог</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Контакты</span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                    <h2 class="caption__title">наши работы</h2>
+                </div>
+                <div class="dblcol">
+                    <aside class="aside">
+                        <div class="aside__box">
+                            <ul>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1" checked>
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Показать все</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Столы</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Барельефы</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Подоконники</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Столешницы</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Камины</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Ступени и лестницы</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Укладка брусчатки</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Изделия из бронзы</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Памятники</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio" onclick="window.location='#';">
+                                        <input type="radio" name="filter-1">
+                                        <div class="radio__fake"></div>
+                                        <span class="radio__text">Скульптуры</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <div class="rightcont">
+                        <div class="filter">
+                            <a href="#" class="filter__item active">мраморные столешницы</a>
+                            <a href="#" class="filter__item">Гранитные столешницы</a>
+                            <a href="#" class="filter__item">Показать всё</a>
+                        </div>
+                        <section class="works">
+                            <div class="works__items light-gallery">
+                                <a href="images/works-img-1.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-1.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-2.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-2.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-3.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-3.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-4.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-4.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-5.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-5.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-1.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-1.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-2.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-2.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-3.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-3.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-4.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-4.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-5.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-5.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-1.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-1.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                                <a href="images/works-img-2.jpg" class="works__item light-gallery__item" style="background-image: url('images/works-img-2.jpg');" data-sub-html="<span>Изготовление обрамления из бронзы</span>"><span>Изготовление обрамления из бронзы</span></a>
+                            </div>
+                        </section>
+                        <div class="paginator">
+                            <a href="#" class="paginator__item">01</a>
+                            <a href="#" class="paginator__item active">02</a>
+                            <a href="#" class="paginator__item">03</a>
+                            <a href="#" class="paginator__item">04</a>
+                            <span>...</span>
+                            <a href="#" class="paginator__item">43</a>
+                            <div class="paginator__btn swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                            <div class="paginator__btn swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="b_center">
+                    <div class="footer__info">
+                        <div class="footer__logo">
+                            <a href=""><img src="images/head-logo.png" alt=""></a>
+                        </div>
+                        <a href="tel:+74951252887" class="footer__item footer__item--big">
+                            <i><img src="images/ico/phone.svg" alt=""></i>
+                            <span>+7(495) 125-28-87</span>
+                        </a>
+                        <div class="footer__item">
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div class="footer__item">
+                            <i><img src="images/ico/envelope.svg" alt=""></i>
+                            <span>Почтовый индекс: 125368</span>
+                        </div>
+                        <a href="mailto:info@ogranstroy.ru" class="footer__item">
+                            <i><img src="images/ico/world.svg" alt=""></i>
+                            <span>info@ogranstroy.ru</span>
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <div>
+                            <a href="#" class="link"><span>Услуги</span></a>
+                            <a href="#" class="link"><span>Каталог камня</span></a>
+                            <a href="#" class="link"><span>Наши работы</span></a>
+                            <a href="#" class="link"><span>О компании</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Новости</span></a>
+                            <a href="#" class="link"><span>Блог</span></a>
+                            <a href="#" class="link"><span>Контакты</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столешницы</span></a>
+                            <a href="#" class="link"><span>Разделочные доски</span></a>
+                            <a href="#" class="link"><span>Подоконники</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Ступени</span></a>
+                            <a href="#" class="link"><span>Лестницы</span></a>
+                            <a href="#" class="link"><span>Барные стойки</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столы</span></a>
+                            <a href="#" class="link"><span>Камины</span></a>
+                            <a href="#" class="link"><span>Барельефы</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Памятники</span></a>
+                            <a href="#" class="link"><span>Скульптуры</span></a>
+                            <a href="#" class="link"><span>Изделия из бронзы </span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="b_center">
+                    <span>© 2008-2016 ООО «ОгранСтрой»</span>
+                    <div>Разработка и продвижение - <a href="#" target="_blank" class="link"><span>Markello</span></a></div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="_trg.js"></script>
+    </body>
+
+</html>

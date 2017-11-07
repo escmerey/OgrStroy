@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta name="keywords" content="document" />
+        <meta name="description" content="document" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href='images/Favicon_144x144.png'>
+        <link rel="apple-touch-icon" href='images/apple-touch-icon-57x57.png'>
+        <link rel="apple-touch-icon" sizes="72x72" href='images/apple-touch-icon-72x72.png'>
+        <link rel="apple-touch-icon" sizes="114x114" href='images/apple-touch-icon-114x114.png'>
+        <!-- Document stylesheet files -->
+        <link rel="stylesheet" href="vendor/swiper-slider/css/swiper.min.css"/>
+        <link rel="stylesheet" href="vendor/nice-select/nice-select.css"/>
+        <link rel="stylesheet" href="vendor/perfect-scrollbar/css/main.css"/>
+        <link rel="stylesheet" href="vendor/lightgallery/css/lightgallery.min.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <!-- Plugins -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="vendor/jquery-ui.min.js"></script>
+        <script src="vendor/jquery.maskedinput.min.js"></script>
+        <script src="vendor/jquery.validate.js"></script>
+        <script src="vendor/swiper-slider/js/swiper.min.js"></script>
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+        <script src="vendor/lightgallery/js/lightgallery-all.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/validate.page.js"></script>
+        <script src="js/popup.js"></script>
+        <!-- Google map -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD5oswumLUaPeyYKa0zpFR7gNsobVkS7eI"></script>
+        <!-- Functionaly scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+
+    <body>
+        
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__top">
+                <div class="b_center">
+                    <a href="/" class="header__logo"><img src="images/head-logo.png" alt=""></a>
+                    <div class="header__info">
+                        <div>
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div>
+                            <i><img src="images/ico/clock.svg" alt=""></i>
+                            <span>График работы: с 9.00 до 20.00, Пн-Вс</span>
+                        </div>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+74951252887" class="link"><span>+7(495) 125-28-87</span></a>
+                    </div>
+                    <a href="#" class="btn btn--empty callPopup" data-popupBlock="callback">Заказать звонок</a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="b_center">
+                    <div class="header__overlay"></div>
+                    <div class="header__toggle toggle_burger"><span></span></div>
+                    <nav class="header__menu">
+                        <div class="header__menu__link">
+                            <a href="#"><span>Продукция и изделия</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Услуги</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li>
+                                    <a href="#">Облицовка</a>
+                                    <div class="header__menu__arr"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Облицовка лестниц</a>
+                                            <div class="header__menu__arr"></div>
+                                            <ul>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                                <li><a href="#">Lorem ipsum dolor.</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Облицовка стен</a></li>
+                                        <li><a href="#">Облицовка фасадов</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Укладка брусчатки</a>
+                                </li>
+                                <li>
+                                    <a href="#">Монтаж камня</a>
+                                </li>
+                                <li>
+                                    <a href="#">Замеры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Индивидуальный дизайн</a>
+                                </li>
+                                <li>
+                                    <a href="#">Продажа блоков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Термообработка</a>
+                                </li>
+                                <li>
+                                    <a href="#">Литье из бронзы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Резьба по камню</a>
+                                </li>
+                                <li>
+                                    <a href="#">Колонны из камня</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Каталог камня</span></a>
+                            <div class="header__menu__arr"></div>
+                            <ul>
+                                <li><a href="#">Гранит</a></li>
+                                <li><a href="#">Мрамор</a></li>
+                                <li><a href="#">Оникс</a></li>
+                                <li><a href="#">Траветрин</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Наши работы</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>О компании</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Новости</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Блог</span></a>
+                        </div>
+                        <div class="header__menu__link">
+                            <a href="#"><span>Контакты</span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="basic">
+            <div class="b_center">
+                <div class="v_menu_toggle">Продукция<span class="v_menu_toggle__arr"></span></div>
+                <ul class="v_menu">
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-1.svg" alt=""></i>
+                            <span>Столешницы</span>
+                        </a>
+                        <ul class="v_menu__submenu">
+                            <li>
+                                <a href="#" class="link"><span>Мраморные</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="link"><span>Гранитные</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-2.svg" alt=""></i>
+                            <span>Разделочные доски</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-3.svg" alt=""></i>
+                            <span>Подоконники</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-4.svg" alt=""></i>
+                            <span>Ступени</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-5.svg" alt=""></i>
+                            <span>Лестницы</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-6.svg" alt=""></i>
+                            <span>Барные стойки</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-7.svg" alt=""></i>
+                            <span>Столы</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-8.svg" alt=""></i>
+                            <span>Камины</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-9.svg" alt=""></i>
+                            <span>Барельефы</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-11.svg" alt=""></i>
+                            <span>Скульптуры</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-12.svg" alt=""></i>
+                            <span>Изделия из бронзы</span>
+                        </a>
+                    </li>
+                    <li class="v_menu__item">
+                        <a href="#">
+                            <i><img src="images/ico/basic-menu-ico-10.svg" alt=""></i>
+                            <span>Памятники</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="basic__slider">
+                    <div class="basic__slide" style="background-image: url('images/basic-img-2.jpg');">
+                        <div class="basic__wrap">
+                            <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                            <h2 class="basic__title">Столешницы из гранита</h2>
+                            <div class="basic__text g_format">
+                                <p>По прочности гранит уступает лишь алмазу,  но в отличие от него, гораздо доступнее по цене. Поэтому, гранитные столешницы неизменно являются одними из самых популярных рабочих поверхностей для установки в домах.</p>
+                                <p>Благодаря нашему собственному производству  и квалифицированным сотрудникам стоимость столешницы из гранита и мрамора ниже чем в других компаниях.от 8 910 рублей за м.п</p>
+                            </div>
+                            <a href="#" class="btn">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="b_center">
+                <div class="advantages__items">
+                    <div class="advantages__item">
+                        <h3>Бесплатно</h3>
+                        <img src="images/ico/advantage-ico-1.png" alt="">
+                        <p>доставим Ваш заказ по Москве</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Гарантируем</h3>
+                        <img src="images/ico/advantage-ico-2.png" alt="">
+                        <p>скидку каждому заказчику</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Бесплатно</h3>
+                        <img src="images/ico/advantage-ico-3.png" alt="">
+                        <p>отправим к вам замерщика</p>
+                    </div>
+                    <div class="advantages__item">
+                        <h3>Гарантируем</h3>
+                        <img src="images/ico/advantage-ico-4.png" alt="">
+                        <p>лучшие цены по Москве и области</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">Примеры наших работ</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                    </div>
+                </div>
+                <div class="examples__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-1.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-2.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-3.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-4.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-1.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-2.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-3.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                        <div class="examples__slide goods__item swiper-slide">
+                            <div class="goods__image" style="background-image: url('images/good-img-4.jpg');"></div>
+                            <p class="goods__text">Столешница из гранита Тан Браун</p>
+                            <span class="goods__price">от 11 160 руб.</span>
+                            <a href="#" class="btn">заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saleblock">
+            <div class="saleblock__left">
+                <div class="w50_center w50_center--left">
+                    <h2 class="saleblock__title">Не нашли интересный  для вас вариант столешницы?</h2>
+                    <p class="saleblock__text">Закажите бесплатную консультацию! <br>Наши специалисты свяжутся с вами и помогут найти решение</p>
+                    <form action="#" class="saleblock__form form valid_form">
+                        <div class="form__input">
+                            <input type="tel" placeholder="Укажите номер" name="Телефон_пользователя">
+                        </div>
+                        <button class="btn" type="submit">получить консультацию</button>
+                    </form>
+                </div>
+            </div>
+            <div class="saleblock__right" style="background-image: url('images/saleblock-right-bg.jpg');"></div>
+        </section>
+
+        <section class="advantages">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                    <h2 class="caption__title">6 неоспоримых преимуществ столешницы из гранита</h2>
+                </div>
+                <div class="advantages__items advantages__items--inner">
+                    <div class="advantages__item advantages__item--inner">
+                        <em>1</em>
+                        <h3>Легко моется</h3>
+                    </div>
+                    <div class="advantages__item advantages__item--inner">
+                        <em>2</em>
+                        <h3>Не впитывает запах</h3>
+                    </div>
+                    <div class="advantages__item advantages__item--inner">
+                        <em>3</em>
+                        <h3>Красивый внешний вид</h3>
+                    </div>
+                    <div class="advantages__item advantages__item--inner">
+                        <em>4</em>
+                        <h3>Не режится ножом</h3>
+                    </div>
+                    <div class="advantages__item advantages__item--inner">
+                        <em>5</em>
+                        <h3>Не портится от горячего и воды</h3>
+                    </div>
+                    <div class="advantages__item advantages__item--inner">
+                        <em>6</em>
+                        <h3>Надёжность</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                    <h2 class="caption__title">Дополнительные услуги при заказе столешницы из гранита</h2>
+                </div>
+                <div class="service__table">
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Наименование услуги</th>
+                            <th>Ед.измерения</th>
+                            <th>Цена</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Вырез отверстия под мойку или варочную панель без обработки</td>
+                            <td>шт.</td>
+                            <td>3000 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Обработка поверхности защитными полиролями</td>
+                            <td>шт.</td>
+                            <td>4000 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Армирование</td>
+                            <td>м²</td>
+                            <td>800 руб.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="variants">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                    <h2 class="caption__title">Дополнительные услуги при заказе столешницы из гранита</h2>
+                </div>
+                <div class="variants__items">
+                    <div class="variants__item"><img src="images/variant-1.png" alt=""></div>
+                    <div class="variants__item"><img src="images/variant-2.png" alt=""></div>
+                    <div class="variants__item"><img src="images/variant-3.png" alt=""></div>
+                    <div class="variants__item"><img src="images/variant-4.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="b_center">
+                <div class="caption">
+                    <div class="caption__left">
+                        <div class="caption__dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        <h2 class="caption__title">отзывы</h2>
+                    </div>
+                    <div class="caption__right">
+                        <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                        <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 10"><path transform="translate(-814 -583)" d="M835.59 585l-1.02 1.05 1.66 1.7H816v1.5h20.23l-1.66 1.7 1.02 1.05 3.41-3.5z"/></svg></div>
+                    </div>
+                </div>
+                <div class="reviews__wrapper">
+                    <div class="reviews__slider catalog__items swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">старостин давид</h3>
+                                    <p class="catalog__text">Спасибо, что пришли на помощь в трудную минуту… Что сами доставили памятник на кладбище… Теперь наш дедушка покоится с миром… Храни вас Господь… Что сами доставили памятник на кладбище. Теперь наш дедушка...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">желнин игорь</h3>
+                                    <p class="catalog__text">Долго пытались с женой объяснить работникам, какой фонтан мы хотим. Всё равно до конца разъяснить не удалось, но в результате вышло даже лучше, чем мы представляли. Наверное, так бывает, когда за дело...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">старостин давид</h3>
+                                    <p class="catalog__text">Спасибо, что пришли на помощь в трудную минуту… Что сами доставили памятник на кладбище… Теперь наш дедушка покоится с миром… Храни вас Господь… Что сами доставили памятник на кладбище. Теперь наш дедушка...</p>
+                                </div>
+                            </div>
+                            <div class="reviews__slide catalog__item swiper-slide">
+                                <div class="catalog__image"><div style="background-image: url('images/man.jpg')"></div></div>
+                                <div class="catalog__wrap">
+                                    <h3 class="catalog__title">желнин игорь</h3>
+                                    <p class="catalog__text">Долго пытались с женой объяснить работникам, какой фонтан мы хотим. Всё равно до конца разъяснить не удалось, но в результате вышло даже лучше, чем мы представляли. Наверное, так бывает, когда за дело...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="saleblock">
+            <div class="saleblock__left">
+                <div class="w50_center w50_center--left">
+                    <h2 class="saleblock__title">Закажите бесплатный замери получите <b>скидку 10%</b></h2>
+                    <form action="#" class="saleblock__form form valid_form">
+                        <div class="form__input">
+                            <input type="tel" placeholder="Укажите номер" name="Телефон_пользователя">
+                        </div>
+                        <button class="btn" type="submit">получить консультацию</button>
+                    </form>
+                </div>
+            </div>
+            <div class="saleblock__right" style="background-image: url('images/saleblock-right-bg.jpg');"></div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="b_center">
+                    <div class="footer__info">
+                        <div class="footer__logo">
+                            <a href=""><img src="images/head-logo.png" alt=""></a>
+                        </div>
+                        <a href="tel:+74951252887" class="footer__item footer__item--big">
+                            <i><img src="images/ico/phone.svg" alt=""></i>
+                            <span>+7(495) 125-28-87</span>
+                        </a>
+                        <div class="footer__item">
+                            <i><img src="images/ico/marker.svg" alt=""></i>
+                            <span>Москва, Путилковское шоссе д 4А склад 37</span>
+                        </div>
+                        <div class="footer__item">
+                            <i><img src="images/ico/envelope.svg" alt=""></i>
+                            <span>Почтовый индекс: 125368</span>
+                        </div>
+                        <a href="mailto:info@ogranstroy.ru" class="footer__item">
+                            <i><img src="images/ico/world.svg" alt=""></i>
+                            <span>info@ogranstroy.ru</span>
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <div>
+                            <a href="#" class="link"><span>Услуги</span></a>
+                            <a href="#" class="link"><span>Каталог камня</span></a>
+                            <a href="#" class="link"><span>Наши работы</span></a>
+                            <a href="#" class="link"><span>О компании</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Новости</span></a>
+                            <a href="#" class="link"><span>Блог</span></a>
+                            <a href="#" class="link"><span>Контакты</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столешницы</span></a>
+                            <a href="#" class="link"><span>Разделочные доски</span></a>
+                            <a href="#" class="link"><span>Подоконники</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Ступени</span></a>
+                            <a href="#" class="link"><span>Лестницы</span></a>
+                            <a href="#" class="link"><span>Барные стойки</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Столы</span></a>
+                            <a href="#" class="link"><span>Камины</span></a>
+                            <a href="#" class="link"><span>Барельефы</span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="link"><span>Памятники</span></a>
+                            <a href="#" class="link"><span>Скульптуры</span></a>
+                            <a href="#" class="link"><span>Изделия из бронзы </span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="b_center">
+                    <span>© 2008-2016 ООО «ОгранСтрой»</span>
+                    <div>Разработка и продвижение - <a href="#" target="_blank" class="link"><span>Markello</span></a></div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="_trg.js"></script>
+    </body>
+
+</html>
